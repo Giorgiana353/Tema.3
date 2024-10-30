@@ -3,7 +3,7 @@
     </head>
     <body>
         <% 
-        int a =10;
+        int a =Integer.parseInt(request.getParameter("a"));
         if(a% 2 ==0) {
         	%>
         	<p> Numar par</p>
